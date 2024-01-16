@@ -1,4 +1,4 @@
-import { addPost, cancelEditingPost, finishEditingPost } from '../../../blog/blog.reducer';
+import { addPost, cancelEditingPost, finishEditingPost } from '../../blog.slice';
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Post } from 'types/blog.type';

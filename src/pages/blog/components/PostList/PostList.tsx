@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import PostItem from '../PostItem';
 import { RootState } from 'store';
-import { deletePost, startEditingPost } from '../../../blog/blog.reducer';
+import { deletePost, startEditingPost } from '../../blog.slice';
 
 const PostList = () => {
   const dispatch = useDispatch();
